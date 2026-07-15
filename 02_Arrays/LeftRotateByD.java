@@ -16,12 +16,6 @@ public class LeftRotateByD {
         for(int i=n-d;i<n;i++){
             array[i] = temp[i - (n - d)];
         }
-        
-        
-
-         
-        
-
 
     }
 
@@ -51,6 +45,7 @@ public class LeftRotateByD {
             System.out.println(value + "\t");
 
         }
+        sc.close();
         
 
         
