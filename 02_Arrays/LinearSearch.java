@@ -1,3 +1,5 @@
+import java.util.Scanner;
+
 public class LinearSearch {
     public static int linearsearch(int []array, int target){
         for(int i =0;i<array.length;i++){
@@ -10,10 +12,23 @@ public class LinearSearch {
 
     }
     public static void main(String[] args) {
-        int array[]={54,25,69,32,45};
-        int target=32;
+       
+         Scanner sc = new Scanner(System.in);
+        
+        System.out.print("Enter size of array: ");
+        int size = sc.nextInt();
+
+        int[] array = new int[size];
+
+        System.out.println("Enter " + size + " elements:");
+        for(int i = 0; i < size; i++) {
+            array[i] = sc.nextInt();
+        }
+        System.out.println(" enter the target value ");
+        int target =sc.nextInt();
 
         int count =linearsearch(array,target);
-        System.out.println(count);
+        System.out.println(" the index of an target value is : " +count);
+        sc.close();
     }
 }
