@@ -78,13 +78,17 @@ public class Union {
         int result[]=new int [array1.length + array2.length];
 
 
+
         
        int count = checkunion(array1,array2,result);
        System.out.println("Union  of both the arrays :");
        for(int idx=0;idx<count;idx++){
         
         System.out.print("  " +result[idx]);
+
+        
        }
+       sc.close();
     }
 
     }
