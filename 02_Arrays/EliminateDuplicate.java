@@ -12,10 +12,7 @@ public class EliminateDuplicate {
             }
         }   
         return i+1;
-        
-
-
-            }
+         }
     
     public static void main(String[] args) {
 
@@ -30,6 +27,7 @@ public class EliminateDuplicate {
         for(int i = 0; i < size; i++) {
             array[i] = sc.nextInt();
         }
+        
         sc.close();
         // int array[]={1,1,2,2,3,3,4,4};
         int count =checkduplicate(array);

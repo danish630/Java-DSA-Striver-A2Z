@@ -11,7 +11,7 @@ public class LeftRotateByOne {
             array[i-1]=array[i];
         }
 
-         array[array.length-1] = temp;
+        array[array.length-1] = temp;
         
 
 
