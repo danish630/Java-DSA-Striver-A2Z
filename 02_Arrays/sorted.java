@@ -30,4 +30,26 @@ public class sorted {
         sc.close();
     }
     
-}
+ }
+
+// class sorted{
+//     public static void bubbleSort(int array[], int n){
+//         for(int i=0;i<n-1;i++){
+//             for(int j=0;j<n-1-i;j++){
+//                 if(array[j+1]<array[j]){
+//                     int temp = array[j];
+//                     array[j] = array[j+1];
+//                     array[j+1] = temp;
+//                 }
+//             }
+//         }
+//     }
+//     public static void main(String[] args) {
+//         int array[]={5,2,4,6,3,1};
+//         int n=array.length;
+//        bubbleSort(array,n);
+//         for ( int value : array){
+//             System.out.println(" "+ value);
+//         }
+//     }
+// }
