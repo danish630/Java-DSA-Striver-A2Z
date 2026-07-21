@@ -42,7 +42,7 @@ class Solution {
 }
 
 // separate main class
-public class Main {
+public class LongestSubarray {
     // program entry
     public static void main(String[] args) {
         // sample input
