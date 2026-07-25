@@ -45,8 +45,9 @@ public class Sorted0 {
         sortedZeroOneTwo(nums, n);
         System.out.println("Sorted of 0s,1s and 2s");
         for(int value: nums){
-            System.out.println(" " + value);
+            System.out.println(" "+ value);
         }
+        sc.close();
 
 
         
