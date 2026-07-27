@@ -1,3 +1,5 @@
+import java.util.Scanner;
+
 class BuyAndStock{
     public static int checkPrice(int array[], int n){
         int minprice =array[0];
@@ -19,11 +21,22 @@ class BuyAndStock{
 
     }
     public static void main(String[] args) {
-        int arrray[]={5,9,1,6,3,2,1};
-        int n= arrray.length;
-        int result = checkPrice(arrray, n);
+         Scanner sc = new Scanner(System.in);
+
+        System.out.print("Enter size of array: ");
+        int size = sc.nextInt();
+
+        int array[] = new int[size];
+
+        System.out.println("Enter " + size + " elements:");
+
+        for(int i = 0; i < size; i++) {
+            array[i] = sc.nextInt();
+        }
+        int n= array.length;
+        int result = checkPrice(array, n);
         System.out.println(" "+ result);
-        
+        sc.close();
 
     }
 }
