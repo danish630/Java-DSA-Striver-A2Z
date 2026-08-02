@@ -17,7 +17,7 @@ public class TwoSum {
     }
     public static void main(String[] args) {
         int array[]={10,11,25,12};
-        int target =22;
+        int target =35;
 
         int result[] = findpairs(array,target);
         System.out.println(result[0] + " " + result[1]);
