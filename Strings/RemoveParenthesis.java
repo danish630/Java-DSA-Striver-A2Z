@@ -17,8 +17,6 @@ public class RemoveParenthesis {
                 if (openCount >= 1) {
                     result.append(c);
                 }
-            } else {
-                result.append(c);
             }
         }
         return result.toString();
