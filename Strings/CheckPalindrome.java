@@ -15,7 +15,7 @@ public class CheckPalindrome {
         return true;
     }
     public static void main(String[] args) {
-        String s = "madams";
+        String s = "madam";
         boolean result = isPalindrome(s);
         if (result) {
             System.out.println(s + " is a palindrome.");
