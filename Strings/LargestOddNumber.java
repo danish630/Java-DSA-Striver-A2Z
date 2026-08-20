@@ -6,11 +6,6 @@ public class LargestOddNumber {
             if ((s.charAt(i) - '0') % 2 != 0) {
                 return s.substring(0, i + 1);
             }
-            
-
-
-
-
     }
     return "";
 }
@@ -19,8 +14,6 @@ public class LargestOddNumber {
         String s = "35698242";
         String result = largestOddNumber(s);
         System.out.println(result);
-
-
 }
 }
 
